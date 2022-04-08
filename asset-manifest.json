@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "./static/css/main.20c36a13.css",
+    "main.js": "./static/js/main.f578d4d5.js",
+    "static/media/NIRVANAdrummer.png": "./static/media/NIRVANAdrummer.9b74e5396f683aeb232a.png",
+    "static/media/NKK.jpg": "./static/media/NKK.bb908f97ed7521bacf59.jpg",
+    "static/media/nirvana.jpg": "./static/media/nirvana.48a3f3954c931aef6e30.jpg",
+    "static/media/NIRVANAkurtKobain.jpg": "./static/media/NIRVANAkurtKobain.f477814c7d54a001abe9.jpg",
+    "static/media/Nirvana_logo.jpg": "./static/media/Nirvana_logo.a840a96e1ba793918ca9.jpg",
+    "static/media/NIRVANAbase.jpg": "./static/media/NIRVANAbase.38e0f290f8e08e0cd68a.jpg",
+    "index.html": "./index.html",
+    "main.20c36a13.css.map": "./static/css/main.20c36a13.css.map",
+    "main.f578d4d5.js.map": "./static/js/main.f578d4d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20c36a13.css",
+    "static/js/main.f578d4d5.js"
+  ]
+}
