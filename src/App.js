@@ -54,10 +54,10 @@ const App = () => {
                         <Route path="/bass" component={Krist}/>
                         
                         <Route path="/albums" exact>
-                            <Album allAlbums={albums} updateAlbumList={updateAlbumList}/>
+                            <Album allAlbums={albums} updateAlbumList={updateAlbumList} setAlbums={setAlbums}/>
                         </Route>
                         <Route path="/albums/new-album/:id">
-                            <CurrentAlbum  allAlbums={albums}/>
+                            <CurrentAlbum  allAlbums={albums} />
                         </Route>
                         <Route path="*" component={NotFound} />
                     </Switch>
