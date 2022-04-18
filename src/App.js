@@ -10,7 +10,6 @@ import "./App.css";
 import NotFound from "./view/NotFound";
 import Album from "./view/Album";
 import CurrentAlbum from "./view/CurrentAlbum"
-
 const App = () => {
     const [ albums, setAlbums ] = useState([])
     const [ newAlbumTitle, setNewAlbumTitle ] = useState("");
@@ -18,29 +17,19 @@ const App = () => {
     useEffect(() => {               
         setAlbums(fetchData())
     }, [])
-
     const fetchData = () => {  
         return [
-            {
-                id:"1",
+            { id:"1",
                 title:"Bleach",
-                year: 1989,
-            },
-            {
-                id:"2",
+                year: 1989},
+            { id:"2",
                 title:"Nevermind",
-                year: 1991,
-            },
-            {
-                id:"3",
+                year: 1991, },
+            { id:"3",
                 title:"In Utero",
-                year: 1993,
-            }
-        ]
-    }
+                year: 1993 }    ]    }
     const updateAlbumList = event => {
-            setAlbums(event.target.value)
-    }
+            setAlbums(event.target.value)  }
     return (
         <div>
             <Router>
@@ -52,7 +41,6 @@ const App = () => {
                         <Route path="/guitar" component={KirtGit}/>
                         <Route path="/drums" component={Dave}/>
                         <Route path="/bass" component={Krist}/>
-                        
                         <Route path="/albums" exact>
                             <Album allAlbums={albums} updateAlbumList={updateAlbumList} setAlbums={setAlbums}/>
                         </Route>
@@ -63,7 +51,5 @@ const App = () => {
                     </Switch>
                 </main>
             </Router>
-        </div>
-    )
-}
+        </div>    ) }
 export default App;
